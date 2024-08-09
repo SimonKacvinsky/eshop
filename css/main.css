@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+#form_container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #163150;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#form_container form {
+    padding: clamp(12px, 2rem, 4rem);
+    background-color: rgba(21, 21, 21, 0.9);
+    border-radius: 10px;
+    color: white;
+}
+#form_container form input, textarea {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+}
+#form_container form textarea {
+    height: 100px;
+}
+#form_container form label {
+    width: 60%;
+    margin: 10px 0;
+}
+#image {
+    padding-bottom: 5px;
+}
+#price, #description, #product_name {
+    padding: 3px 3px;
+}
+
+#description {
+    margin-bottom: -4px;
+}
+#submit {
+    padding: 5px 0;
+    cursor: pointer;
+}
+input[type=file]::-webkit-file-upload-button {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 2px;
+}
+#products_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    width: 60vw;
+    max-width: 1200px;
+    justify-items: center;
+    background-color: #163150;
+    padding: 20px;
+
+}
+.product_container {
+    width: 250px;
+    background-color: white;
+
+}
+.product_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product_image{
+    width: 80%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.product_name{
+    align-self: start;
+}
+.product_description{
+    height: 140px;
+    width: 100%;
+    overflow-y: scroll;
+}
+.product_price{
+    margin-top: 10px;
+}
+.price_wrapper{
+    width: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.order_container{
+    margin-top: 2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cart{
+    width: 30px;
+}
+.cart_wrapper{
+    width: 80px;
+    padding: 15px 0;
+    margin-top: 10px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_wrapper:hover{
+    background: #28b840;
+    cursor: pointer;
+}
+.cart_wrapper:hover .cart{
+    fill: white;
+}
+#current_cart{
+    height: 10px;
+    width: 0px;
+    top: 10px;
+    position: sticky;
+
+}
+
+@media screen and (max-width: 1000px) {
+    #products_container {
+        width: 100vw;
+    }
+
+}
