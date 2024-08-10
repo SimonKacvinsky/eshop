@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: Quicksand;
+}
+.cart_container{
+    width:80vw;
+    margin: 20px auto;
+    background: darkcyan;
+}
+.product_container{
+    padding: 15px 15px;
+    display: flex;
+    column-gap: 15px;
+}
+.product_image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.product_name{
+
+}
+.product_description{
+    width: 100%;
+    height: 100px;
+    overflow-y: scroll;
+}
+.product_container svg{
+    padding: 10px;
+    transition: 0.2s;
+}
+.product_container svg:hover{
+    cursor: pointer;
+    background: #2e9be8;
+}
+path{
+    transition: 0.2s;
+}
+.product_container svg:hover path{
+    stroke: #ffffff;
+}

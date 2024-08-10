@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de16ef22-7db3-4563-9b0c-a9a9544ceb7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/eshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Amica VT 862 AR.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Electrolux LXB1AE13W0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Kacvinský_fotografia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Liebherr T 1400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Liebherr T1700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Liebherr TP 1724.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/RE_Village_Jan21_Art_Lady_Dimitrescu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Severin RKS 8833.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ai-generated-8698024_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/iphone15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/css/cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/XY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/cart.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,12 +89,24 @@
       <workItem from="1723115429463" duration="335000" />
       <workItem from="1723144351479" duration="4364000" />
       <workItem from="1723205909049" duration="2962000" />
-      <workItem from="1723229399429" duration="4956000" />
+      <workItem from="1723229399429" duration="5262000" />
+      <workItem from="1723286343254" duration="6446000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
